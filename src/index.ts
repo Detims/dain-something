@@ -192,21 +192,19 @@ const getWeatherForecastConfig: ToolConfig = {
 
 const dainService = defineDAINService({
   metadata: {
-    title: "Weather DAIN Service",
+    title: "Spotify Integration",
     description:
-      "A DAIN service for current weather and forecasts using Open-Meteo API",
+      "A DAIN service for integrating the Spotify API with DAIN",
     version: "1.0.0",
-    author: "Your Name",
-    tags: ["weather", "forecast", "dain"],
+    author: "Nhan Nguyen, Anderson Pham, Marc Montano, Brian Nguyen",
+    tags: ["spotify", "music", "dain"],
     logo: "https://cdn-icons-png.flaticon.com/512/252/252035.png",
   },
   exampleQueries: [
     {
-      category: "Weather",
+      category: "Music",
       queries: [
-        "What is the weather in Tokyo?",
-        "What is the weather in San Francisco?",
-        "What is the weather in London?",
+        "What is Drake's most popular song?",
       ],
     },
   ],
